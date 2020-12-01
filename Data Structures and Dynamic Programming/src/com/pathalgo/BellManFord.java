@@ -1,9 +1,4 @@
 package com.pathalgo;
-// A Java program for Bellman-Ford's single source shortest path 
-// algorithm. 
-import java.util.*; 
-import java.lang.*; 
-import java.io.*; 
   
 // A class to represent a connected, directed and weighted graph 
 class BellManFord { 
