@@ -1,2 +1,0 @@
-﻿# GraphAlgorithm
-MinimumSpanningTree Implementation
